@@ -35,7 +35,7 @@ def add_patient():
 def view_patients():
     patients = database.get_patients()
     for patient in patients:
-        print(patient)
+      
 
 def update_patient():
     patient_id = input("Enter Patient ID to update: ")
