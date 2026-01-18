@@ -1,7 +1,7 @@
 import database
 
 def doctor_menu():
-    while True:
+    
         print("\nDoctor Management")
         print("1. Add Doctor")
         print("2. View Doctors")
