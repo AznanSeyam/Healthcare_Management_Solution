@@ -29,7 +29,6 @@ def add_patient():
     name = input("Enter Name: ")
     age = input("Enter Age: ")
     gender = input("Enter Gender: ")
-    disease = input("Enter Disease: ")
     database.add_patient(patient_id, name, age, gender, disease)
 
 def view_patients():
