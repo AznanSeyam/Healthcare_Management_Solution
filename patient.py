@@ -16,7 +16,7 @@ def patient_menu():
         elif choice == "2":
             view_patients()
         elif choice == "3":
-            update_patient()
+
         elif choice == "4":
             delete_patient()
         elif choice == "5":
