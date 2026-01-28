@@ -4,7 +4,6 @@ def appointment_menu():
     while True:
         print("\nAppointment Management")
         print("1. Book Appointment")
-        print("2. View Appointments")
         print("3. Cancel Appointment")
         print("4. Go Back")
 
