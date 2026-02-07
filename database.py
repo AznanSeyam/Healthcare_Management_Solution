@@ -6,8 +6,7 @@ bills = []
 def add_patient(patient_id, name, age, gender, disease):
     patients.append({"id": patient_id, "name": name, "age": age, "gender": gender, "disease": disease})
 
-def get_patients():
-    return patients
+
 
 def update_patient(patient_id, name, age, gender, disease):
     for patient in patients:
