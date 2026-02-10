@@ -7,7 +7,6 @@ def billing_menu():
         print("2. View Bills")
         print("3. Go Back")
 
-        choice = input("Enter choice: ")
 
         if choice == "1":
             generate_bill()
