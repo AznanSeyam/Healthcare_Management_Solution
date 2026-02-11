@@ -14,8 +14,7 @@ def billing_menu():
             view_bills()
         elif choice == "3":
             break
-        else:
-            print("Invalid choice!")
+        
 
 def generate_bill():
     bill_id = input("Enter Bill ID: ")
