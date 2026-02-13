@@ -4,7 +4,6 @@ import appointment
 import billing
 
 def main_menu():
-    while True:
         print("\nClinic Management System")
         print("1. Manage Patients")
         print("2. Manage Doctors")
