@@ -13,9 +13,7 @@ def update_patient(patient_id, name, age, gender, disease):
         if patient["id"] == patient_id:
             patient.update({"name": name, "age": age, "gender": gender, "disease": disease})
 
-def delete_patient(patient_id):
-    global patients
-    patients = [p for p in patients if p["id"] != patient_id]
+
 
 def add_doctor(doctor_id, name, specialty):
     doctors.append({"id": doctor_id, "name": name, "specialty": specialty})
