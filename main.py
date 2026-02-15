@@ -9,7 +9,6 @@ def main_menu():
         print("2. Manage Doctors")
         print("3. Schedule Appointments")
         print("4. Billing")
-        print("5. Exit")
 
         choice = input("Enter your choice: ")
 
