@@ -8,12 +8,6 @@ def add_patient(patient_id, name, age, gender, disease):
 
 
 
-def update_patient(patient_id, name, age, gender, disease):
-    for patient in patients:
-        if patient["id"] == patient_id:
-            patient.update({"name": name, "age": age, "gender": gender, "disease": disease})
-
-
 
 def add_doctor(doctor_id, name, specialty):
     doctors.append({"id": doctor_id, "name": name, "specialty": specialty})
