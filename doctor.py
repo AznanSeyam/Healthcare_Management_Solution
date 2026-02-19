@@ -11,18 +11,7 @@ def doctor_menu():
 
         choice = input("Enter choice: ")
 
-        if choice == "1":
-            add_doctor()
-        elif choice == "2":
-            view_doctors()
-        elif choice == "3":
-            update_doctor()
-        elif choice == "4":
-            delete_doctor()
-        elif choice == "5":
-            break
-        else:
-            print("Invalid choice!")
+     
 
 def add_doctor():
     doctor_id = input("Enter Doctor ID: ")
