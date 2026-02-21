@@ -10,7 +10,6 @@ def main_menu():
         print("3. Schedule Appointments")
         print("4. Billing")
 
-        choice = input("Enter your choice: ")
 
         if choice == "1":
             patient.patient_menu()
