@@ -8,12 +8,6 @@ def billing_menu():
         print("3. Go Back")
 
 
-        if choice == "1":
-            generate_bill()
-        elif choice == "2":
-            view_bills()
-        elif choice == "3":
-            break
         
 
 def generate_bill():
