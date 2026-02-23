@@ -5,7 +5,6 @@ def appointment_menu():
         print("\nAppointment Management")
         print("1. Book Appointment")
         print("3. Cancel Appointment")
-        print("4. Go Back")
 
         choice = input("Enter choice: ")
 
