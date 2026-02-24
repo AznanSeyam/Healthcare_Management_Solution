@@ -3,10 +3,7 @@ import database
 def billing_menu():
     while True:
         print("\nBilling Management")
-        print("1. Generate Bill")
-        print("2. View Bills")
-        print("3. Go Back")
-
+   
 
         
 
