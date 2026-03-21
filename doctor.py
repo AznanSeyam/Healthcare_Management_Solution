@@ -4,7 +4,6 @@ def doctor_menu():
     
         print("\nDoctor Management")
         print("1. Add Doctor")
-        print("2. View Doctors")
         print("3. Update Doctor")
         print("4. Delete Doctor")
         print("5. Go Back")
