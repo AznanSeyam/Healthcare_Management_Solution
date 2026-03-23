@@ -4,7 +4,6 @@ def appointment_menu():
     while True:
         print("\nAppointment Management")
         print("1. Book Appointment")
-        print("3. Cancel Appointment")
 
         choice = input("Enter choice: ")
 
