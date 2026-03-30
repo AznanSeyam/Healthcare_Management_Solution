@@ -16,7 +16,6 @@ def get_doctors():
     return doctors
 
 def update_doctor(doctor_id, name, specialty):
-    for doctor in doctors:
         if doctor["id"] == doctor_id:
             doctor.update({"name": name, "specialty": specialty})
 
