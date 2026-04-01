@@ -7,7 +7,7 @@ def appointment_menu():
 
         choice = input("Enter choice: ")
 
-        if choice == "1":
+        if choice == "1"
             book_appointment()
         elif choice == "2":
             view_appointments()
