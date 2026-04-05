@@ -7,7 +7,6 @@ def patient_menu():
         print("2. View Patients")
         print("3. Update Patient")
         print("4. Delete Patient")
-        print("5. Go Back")
 
         choice = input("Enter choice: ")
 
